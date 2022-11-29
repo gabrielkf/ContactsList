@@ -1,6 +1,9 @@
-export class Contact {
-  public name: string;
-  public phone: string;
-  public email: string;
-  public whatsapp: string;
+import { InMemoryDBEntity } from '@nestjs-addons/in-memory-db';
+
+export class Contact implements InMemoryDBEntity {
+  id: string;
+  name: string;
+  phone: string;
+  email: string;
+  whatsapp: string;
 }
