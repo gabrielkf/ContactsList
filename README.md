@@ -30,6 +30,8 @@ $ yarn start:dev
 $ yarn start:prod
 ```
 
+This will start the server on localhost:3030
+
 ## Test
 
 ```bash
